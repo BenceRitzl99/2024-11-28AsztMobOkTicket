@@ -38,7 +38,7 @@ public class Console {
     System.out.println(message);
     Scanner sc = new Scanner(System.in);
     String input = sc.nextLine();
-    sc.close();
+    
 
     return input;
   }
